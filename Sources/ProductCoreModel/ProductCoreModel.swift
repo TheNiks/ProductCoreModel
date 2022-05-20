@@ -1,7 +1,7 @@
 // MARK: - Products
 public struct Products: Codable {
-    let products: [Product]
-    let total, skip, limit: Int
+    public let products: [Product]
+    public let total, skip, limit: Int
 }
 
 // MARK: - Product
